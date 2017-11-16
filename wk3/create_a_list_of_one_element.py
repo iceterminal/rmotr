@@ -6,3 +6,14 @@ number_of_chickens = 3
 my_list = [number_of_chickens]
 
 length_of_my_list = len(my_list)  # Use the `len` function to count how many items `my_list` has.
+
+
+
+
+
+
+
+#Test List One Elem - RUN TEST
+def test_list_one_elem():
+    assert my_list == [number_of_chickens], "Your list doesn't contain the number of chickens :("
+    assert length_of_my_list == 1
