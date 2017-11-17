@@ -10,3 +10,12 @@ if x != 9:
 
 print(message_1)
 print(message_2)
+
+
+
+#Test Message 2 - RUN TEST
+def test_message_2():
+    assert message_2 == 'This is RMOTR'
+ #Test Message 1 - RUN TEST
+def test_message_1():
+    assert message_1 == 'Hello World'

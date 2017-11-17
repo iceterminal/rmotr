@@ -20,3 +20,13 @@ if number_911 % divisible_by_11 == 0:
     is_911_divisible_by_11 = True
 else:
     is_911_divisible_by_11 = False
+
+
+
+
+#Test Is 911 Divisible By 11 - RUN TEST
+def test_is_911_divisible_by_11():
+    assert is_911_divisible_by_11 is False
+ #Test Is 583 Divisible By 11 - RUN TEST
+def test_is_583_divisible_by_11():
+    assert is_583_divisible_by_11 is True
